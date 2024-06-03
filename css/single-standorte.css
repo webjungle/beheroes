@@ -1,0 +1,147 @@
+/* Cool Box */
+.cool-box.box-big.box-main {
+	padding: 50px 70px;
+	min-height: 70vh;
+	max-height: 1000px;
+}
+@media only screen and (max-width: 769px) {
+.cool-box.box-big.box-main {
+	padding: 30px;
+}}
+.cool-box.box-big.box-main h1,
+.cool-box.box-big.box-main h2,
+a.button.text-button.button-white {
+	color: #fff;
+}
+.cool-box.box-big.box-main h1 {
+	font-size: 80px;
+	width: 50%;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+}
+@media only screen and (max-width: 769px) {
+.cool-box.box-big.box-main h1 {
+	font-size: 60px;
+	width: 100%;
+}}
+.cool-box.box-big.box-main h2 {
+	color: #D32F7D;
+	font-size: 42px;
+	margin-bottom: 10px;
+}
+.cool-box.box-big.box-main p {
+	font-family: 'Blockhead';
+	color: #fff;
+	font-size: 22px;
+	max-width: 60%;
+	line-height: 1.5em;
+}
+@media only screen and (max-width: 769px) {
+.cool-box.box-big.box-main p {
+	max-width: 100%;
+	font-size: 18px;
+}}
+.cool-box.box-big.box-main .links {
+	margin: 30px auto;
+	display: block;
+}
+.cool-box.box-big.box-main .links a.button {
+	font-size: 24px;
+	margin-right: 40px;
+}
+@media only screen and (max-width: 769px) {
+.cool-box.box-big.box-main .links a.button {
+	display: inline-grid;
+	margin-bottom: 30px;
+}}
+/* Badge */
+.badge-detail-location {
+	position: absolute;
+	float: right;
+	right: 40px;
+	bottom: 40px;
+	color: #fff;	
+}
+.contact-section {
+	background-size: cover !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.contact-section .grid-1-1 {
+	max-width: 70%;
+	position: relative;
+	margin: 0 auto;
+	padding: 100px 0;
+	grid-column-gap: 50px;
+}
+@media only screen and (max-width: 769px) {
+.contact-section .grid-1-1 {
+	max-width: 100%;
+	padding: 30px;
+}}
+.contact-section .grid-1-1 h2 {
+	width: 80%;
+}
+@media only screen and (max-width: 769px) {
+.contact-section .grid-1-1 h2 {
+	width: 100%;
+}}
+.contact-section .grid-1-1 span,
+.contact-section .grid-1-1 p {
+	font-family: 'Blockhead';
+	color: #fff;
+	display: block;
+	font-size: 28px;
+}
+@media only screen and (max-width: 769px) {
+.contact-section .grid-1-1 p {
+	font-size: 23px;
+}}
+.contact-section .grid-1-1 .adresse {
+	padding-bottom: 30px;	
+}
+.contact-section .grid-1-1 .div2 h2 {
+	color: #FAEF50;
+}
+@media only screen and (max-width: 769px) {
+.contact-section .grid-1-1 .div2 h2 {
+	font-size: 36px;
+	margin-top: 20px;
+}}
+a.button.google-maps-link {
+	font-family: 'CCMonsterMashWornW01-Rg';
+	font-size: 22px;
+	color: #040002;
+	position: relative;
+	background: #FAEF50;
+	float: left;
+	left: 20px;
+	z-index: 99;
+	padding: 15px 40px;
+	text-decoration: none;
+	margin-top: -100px;
+}
+.badge-buttons-section {
+	margin-top: 60px;
+}
+.badge-buttons-section ul {
+	margin: 0;
+	padding: 0;
+}
+.restaurantslider {
+	height: 60vh;
+	cursor: pointer;
+}
+.restaurantslider img {
+	object-fit: cover;
+	min-height: 100%;
+}
+@media only screen and (max-width: 769px) {
+.first-section .badgebutton {
+	display: none;
+}}
+
+
+
+

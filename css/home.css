@@ -1,0 +1,92 @@
+/* Cool Box */
+.cool-box.box-big.box-main {
+	padding: 50px 70px;
+}
+@media only screen and (max-width: 769px) {
+.cool-box.box-big.box-main {
+	padding: 30px;
+}}
+
+.cool-box.box-big.box-main h1,
+.cool-box.box-big.box-main h2,
+a.button.text-button.button-white {
+	color: #fff;
+}
+.cool-box.box-big.box-main h2 {
+	color: #04f80c;
+	font-size: 62px;
+	margin-bottom: 10px;
+}
+@media only screen and (max-width: 769px) {
+.cool-box.box-big.box-main h2 {
+	font-size: 32px;
+}}
+.cool-box.box-big.box-main h1 {
+	font-family: 'Blockhead';
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+@media only screen and (max-width: 769px) {
+.cool-box.box-big.box-main h1 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}}
+.cool-box.box-big.box-main p {
+	font-family: 'Blockhead';
+	color: #fff;
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+@media only screen and (max-width: 769px) {
+.cool-box.box-big.box-main p {
+	font-size: 17px;
+	margin-top: 20px;
+}}
+a.button.text-button {
+	position: absolute;
+}
+/* Order Section */
+.order-section {
+	background-size: cover !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.order-section h2 {
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 769px) {
+.order-section h2 {
+	width: 100%;
+}}
+.order-section ul {
+	margin: 0;
+	padding: 0;
+}
+/* Social Section */
+.socialsection {
+	min-height: 400px;
+	position: relative;
+}
+.socialtextbox {
+	background: rgba(10, 10, 10, 0.9);
+	position: absolute;
+	float: right;
+	right: 60px;
+	bottom: 60px;
+	color: #fff;
+	padding: 50px;
+	max-width: 400px;
+}
+.socialtextbox h3 {
+	font-family: 'CCMonsterMashWornW01-Rg';
+	font-size: 42px;
+}
+.socialtextbox h4 {
+	font-family: 'CCMonsterMashWornW01-Rg';
+	font-size: 42px;
+	color: #D32F7D;
+}
